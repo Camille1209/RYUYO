@@ -1,0 +1,104 @@
+html{
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    display:block;
+}
+/*panier etc*/
+.config{
+    max-width: 1220px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 0;
+}
+.confirmation{
+    background-color: #dabeae;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.active{
+    font-weight: 700;
+    color: black;
+}
+
+
+.s{
+    font-size: 16px;
+    color: #767676;
+    display: inline-block;
+}
+
+.s::before{ 
+    content: '>';
+    padding: 0 10px;
+}
+
+/*resume*/
+.resumer{
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.articles{
+    padding-right: 10px;
+}
+
+.promo{
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.proms{
+    width: 100%;
+    display: flex;
+    padding: 24px;
+    background: #fff;
+}
+
+.promos{
+    position: relative;
+    -webkit-box-flex: 1;
+    flex: 1;
+    padding: 12px;
+    display: flex;
+}
+
+.titre1{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 25px;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    line-height: 25px;
+}
+
+p{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    line-height: 25px;
+}
+
+.operation{
+    color: #222;
+    font-weight: 700;
+    font-size: 12px;
+    cursor: pointer;  
+}
+
+
